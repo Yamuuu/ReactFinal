@@ -1,0 +1,96 @@
+.body{
+    margin: 0;
+    margin: 1.5%;
+    height: 100%;
+}
+
+.footerContent{
+    background-color: #B48B7D;
+    margin: 0px;
+    position: fixed;
+    width: 100vw;
+    padding: 1.5%;
+    bottom: 0;
+}
+
+.cheese-info{
+   padding: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-group-active{
+   padding:  .75rem 1.25rem;
+   border: 1px solid #F7EC59(0, 0, 0, .125);
+   list-style-type: none;
+}
+
+.list-group-item:hover{
+    background-color: #F7EC59;
+}
+
+.list-group-active {
+    background-color: #F0C808 !important;  
+}
+
+.buy{
+    background-color: #5998C5;
+    color: white;
+}
+
+.cheese-image{
+    width: 300px;
+    padding: 2%;
+}
+
+input, textarea{
+    width: 100%; 
+  }
+
+  label{
+    padding-top: .5em;
+  }
+
+  .form{
+    padding-bottom: 2.5%;
+  }
+
+   input, textarea{
+    width: 100%; 
+  }
+
+  label{
+    padding-top: .5em;
+  }
+
+  .form{
+    padding-bottom: 2.5%;
+  }
+
+  .buttons{
+    width: 100%;
+    display: flex;
+  }
+
+  .btn-primary{
+    padding-right: 1.5em;
+    width: 50%;
+    background-color: #5998C5;
+
+  }
+
+@media only screen and (max-width: 600px) {
+    .cheese-info{
+        margin: 2.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cheese-image{
+        width: 80%;
+        padding: 2%;
+    }
+  }
+
+ 
